@@ -8,6 +8,8 @@ Experiment Title: Performance Analysis of Matrix Multiplication using Sequential
 
 
 1.Abstract
+
+
 This experiment compares sequential and OpenMP implementations of 
 4000
 ×
@@ -25,3 +27,7 @@ C
 ]
 =
 4000.00. The results demonstrate the performance improvement achieved through shared-memory parallelism using OpenMP.
+
+
+
+
