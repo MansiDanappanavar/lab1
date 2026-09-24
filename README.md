@@ -43,3 +43,20 @@ C
 To measure the execution time of both implementations and calculate the speedup of OpenMP over the sequential program.
 To compare the performance of single-threaded execution with 8-thread OpenMP parallel execution.
 To analyze the performance improvement achieved through shared-memory parallelism using OpenMP.
+
+3.# Environment
+
+•⁠  ⁠Operating System: Ubuntu on WSL2
+•⁠  ⁠Programming Language: C
+•⁠  ⁠Compiler: GCC
+•⁠  ⁠Matrix Size: 4000 × 4000
+
+## Result
+
+•⁠  ⁠Matrix Size: 4000 × 4000
+•⁠  ⁠Execution Time: seconds
+•⁠  ⁠Verification: C[0][0] = 4000.00
+
+The sequential execution time is used as the baseline for calculating the speedup of parallel implementations.
+
+
