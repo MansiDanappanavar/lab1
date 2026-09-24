@@ -23,3 +23,23 @@ C
 4000.00
 . The results demonstrate the performance improvement achieved through shared-memory parallelism using OpenMP.
 
+2.2. Experimental Objectives
+To implement 
+4000
+×
+4000
+ matrix multiplication using Sequential C and OpenMP.
+To verify the correctness of the result by confirming 
+C
+[
+0
+]
+[
+0
+]
+=
+4000.00
+.
+To measure the execution time of both implementations and calculate the speedup of OpenMP over the sequential program.
+To compare the performance of single-threaded execution with 8-thread OpenMP parallel execution.
+To analyze the performance improvement achieved through shared-memory parallelism using OpenMP.
