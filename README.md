@@ -24,5 +24,4 @@ C
 0
 ]
 =
-4000.00
-. The results demonstrate the performance improvement achieved through shared-memory parallelism using OpenMP.
+4000.00. The results demonstrate the performance improvement achieved through shared-memory parallelism using OpenMP.
