@@ -23,7 +23,7 @@ C
 4000.00
 . The results demonstrate the performance improvement achieved through shared-memory parallelism using OpenMP.
 
-2.2. Experimental Objectives
+2. Experimental Objectives
 To implement 
 4000
 ×
