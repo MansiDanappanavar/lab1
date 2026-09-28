@@ -95,4 +95,49 @@ The sequential execution time is used as the baseline for calculating the speedu
 | Speedup | OpenMP achieved a **2.63× speedup** over sequential execution |
 | Parallelism | Performance improved using **8-thread shared-memory parallelism** |
 | Baseline | Sequential execution was used as the baseline for speedup calculation |
+## 5. Performance Visualizations
+
+### Figure 1: Sequential Execution
+
+![Sequential Execution](sequential.JPG)
+
+**Figure 1:** Sequential matrix multiplication execution output.
+
+### Figure 2: OpenMP Execution
+
+![OpenMP Execution](openmp.JPG)
+
+**Figure 2:** OpenMP matrix multiplication execution using 8 threads.
+
+### Figure 3: Sequential Verification
+
+![Sequential Verification](sequential.PNG)
+
+**Figure 3:** Verification of the Sequential matrix multiplication result.
+
+### Figure 4: OpenMP Verification
+
+![OpenMP Verification](openmp.PNG)
+
+**Figure 4:** Verification of the OpenMP matrix multiplication result.
+## 6. Discussion & Technical Findings
+
+1. **Sequential CPU Baseline (348.02 s):**  
+   The sequential implementation performs matrix multiplication using a single CPU core. The large execution time is due to the computational cost of multiplying two 4000 × 4000 matrices.
+
+2. **OpenMP Shared Memory (132.46 s, 2.63× Speedup):**  
+   OpenMP parallelizes the matrix multiplication across 8 CPU threads. This reduces the execution time significantly compared with the sequential implementation.
+
+3. **Parallel Performance:**  
+   Although 8 threads were used, the speedup is 2.63× rather than an ideal 8×. This is due to factors such as memory access overhead, thread management, synchronization, and limitations of shared-memory bandwidth.
+
+4. **Correctness Verification:**  
+   Both Sequential and OpenMP implementations produced the same verified result, **C[0][0] = 4000.00**, confirming the correctness of the matrix multiplication.
+   ## 7. Conclusion
+
+The experiment demonstrates the performance improvement achieved through shared-memory parallelism using OpenMP. For 4000 × 4000 matrix multiplication, the Sequential implementation required **348.02 seconds**, whereas the OpenMP implementation using **8 threads** required only **132.46 seconds**.
+
+The OpenMP implementation achieved a **2.63× speedup** compared with the sequential baseline. Both implementations produced the correct result of **C[0][0] = 4000.00**.
+
+Overall, the experiment shows that OpenMP can significantly reduce execution time by distributing computational work across multiple CPU threads while maintaining result correctness.
 
