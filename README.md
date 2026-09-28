@@ -99,27 +99,29 @@ The sequential execution time is used as the baseline for calculating the speedu
 
 ### Figure 1: Sequential Execution
 
-![Sequential Execution](sequential.JPG)
+![Sequential Execution](./sequential.JPG)
 
 **Figure 1:** Sequential matrix multiplication execution output.
 
 ### Figure 2: OpenMP Execution
 
-![OpenMP Execution](openmp.JPG)
+![OpenMP Execution](./openmp.JPG)
 
 **Figure 2:** OpenMP matrix multiplication execution using 8 threads.
 
 ### Figure 3: Sequential Verification
 
-![Sequential Verification](sequential.PNG)
+![Sequential Verification](./sequential.PNG)
 
 **Figure 3:** Verification of the Sequential matrix multiplication result.
 
 ### Figure 4: OpenMP Verification
 
-![OpenMP Verification](openmp.PNG)
+![OpenMP Verification](./openmp.PNG)
 
 **Figure 4:** Verification of the OpenMP matrix multiplication result.
+
+
 ## 6. Discussion & Technical Findings
 
 1. **Sequential CPU Baseline (348.02 s):**  
