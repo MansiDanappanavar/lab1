@@ -14,3 +14,20 @@ All C and C++ implementations maintain strict numerical consistency, verifying $
 
 > **The baseline Sequential execution completed in 348.02 seconds. OpenMP (8 threads) achieved a 2.63× speedup (132.46s), MPI (4 nodes) achieved a 3.74× speedup (92.98s), and CUDA GPU acceleration delivered a phenomenal 2109.18× overall phase speedup (0.1650s) and 2376.51× kernel-only speedup (0.1464s).**
 
+---
+
+## Table of Contents
+
+1. [Project Objectives](#1-project-objectives)
+2. [Computing Architecture Comparison](#2-computing-architecture-comparison)
+3. [System & Hardware Specifications](#3-system--hardware-specifications)
+4. [Source Code Implementations (C & C++)](#4-source-code-implementations-c--c)
+5. [Experimental Procedure & Compilation](#5-experimental-procedure--compilation)
+6. [Empirical Results & Screenshots](#6-empirical-results--screenshots)
+7. [Performance Comparison Table](#7-performance-comparison-table)
+8. [Metric Explanations & Visualizations](#8-metric-explanations--visualizations)
+9. [Technical Analysis & Discussion](#9-technical-analysis--discussion)
+10. [Conclusion & Engineering Takeaways](#10-conclusion--engineering-takeaways)
+11. [Repository Structure & Reproduction](#11-repository-structure--reproduction)
+
+---
